@@ -12,6 +12,13 @@
   }
 }
 
+@media (min-width: 768px) {
+  .splashCard {
+    transform: translateY(60px);
+    opacity: 80%;
+  }
+}
+
 header {
   opacity: 70%;
 }
@@ -39,11 +46,6 @@ header {
 
 .roundBox {
   border-radius: 10px;
-}
-
-.splashCard {
-  transform: translateY(60px);
-  opacity: 80%;
 }
 
 .aboutPage {

@@ -1,6 +1,6 @@
 :root {
-  --banner: rgb(44, 204, 161);
-  --background: rgb(130, 138, 139);
+  --banner: rgb(54, 58, 57);
+  --background: rgb(74, 99, 103);
 }
 
 @media (max-width: 768px) {
@@ -24,7 +24,7 @@ header {
 }
 
 .facePage {
-  background-image: url(https://images.unsplash.com/photo-1449867727329-3294ea016353?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  background-image: url(https://images.unsplash.com/photo-1443527394413-4b820fd08dde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80);
   height: 50vh;
   background-position: center;
   background-size: cover;
@@ -58,5 +58,5 @@ header {
 
 .rvwCard {
   border: solid rgb(89, 89, 89) 2px;
-  background-color: rgb(106, 143, 158);
+  background-color: rgb(44, 84, 100);
 }

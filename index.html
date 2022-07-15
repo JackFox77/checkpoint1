@@ -1,0 +1,175 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sofia&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      body.debug .container,
+      body.debug .container-fluid {
+        outline: 2px double blue;
+        outline-offset: -2px;
+      }
+
+      body.debug .row {
+        outline: 2px dashed red;
+        outline-offset: -2px;
+      }
+
+      body.debug [class*="col-"] {
+        outline: 2px dotted forestgreen;
+        outline-offset: -3px;
+      }
+    </style>
+
+    <title>Document</title>
+  </head>
+  <body class="debug">
+    <header class="container-fluid">
+      <section class="row bannerBar pt-1 fixed-top">
+        <h2 class="mdi mdi-castle col-1 offset-1"></h2>
+        <!-- SECTION NAVBAR -->
+        <h2 class="col-3 titleFont offset-1">Lorem Ipsum</h2>
+      </section>
+    </header>
+
+    <section id="FacePage" class="container-fluid facePage">
+      <!-- SECTION FACEPAGE -->
+
+      <main class="row pt-5 pb-5">
+        <div class="col-md-2 col-7 offset-1 bg-light mt-3 roundBox">
+          <h4 class="text-dark">Title</h4>
+          <input type="text " class="my-1" />
+          <input type="text" class="my-1" />
+          <input type="text" class="my-1" />
+          <input type="text" class="my-1" />
+          <button class="mb-2 mt-3 btn-secondary text-info">submit</button>
+        </div>
+        <div class="col-4 offset-2 aboumt-3">
+          <div class="p-4 glassCard roundBox">
+            <h3>Brand</h3>
+            <p>brand mission</p>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <section class="container-fluid bannerBar">
+      <!-- SECTION CONTACT -->
+      <div class="row py-3">
+        <div
+          class="order-md-2 col-md-6 bg-info align-content-evenly splashCard roundBox"
+        >
+          <div class="mdi mdi-email">Email - jamesbdonavon@blubblemail.com</div>
+          <div class="mdi mdi-globe-model">
+            Location - 543 chester dr , bigtown, 87654
+          </div>
+          <div class="mdi mdi-phone">Phone - 123-444-6565</div>
+          <div class="mdi mdi-twitter">Social Media - Defiant Broadcast</div>
+        </div>
+        <div class="col-md-5">
+          <h2 class="col-8 offset-1">Contact Us!</h2>
+          <p class="col-8 offset-1">We would love to here From You!</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid bgMain py-3">
+      <!-- SECTION ABOUT US -->
+      <main class="row">
+        <div class="col-md-3 offset-1 aboutPage rounded text-center">
+          <img
+            height="250px"
+            width="250px "
+            class=""
+            src="imgs/aboutpic.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-7 col-10 offset-1">
+          <h1 class="pt-5">About us</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eos
+            cupiditate magnam rem, temporibus necessitatibus unde eveniet
+            maiores architecto dolores. Eos mollitia nesciunt sequi magnam odio
+            aspernatur! Corporis, molestias cum!
+          </p>
+          <button class="col-2 btn-danger rounded">more</button>
+        </div>
+      </main>
+    </section>
+
+    <section class="container-fluid bgMain py-5">
+      <!-- SECTION REVIEWS -->
+      <main class="row justify-content-around">
+        <div class="col-md-2 col-8 rvwCard">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            aliquid blanditiis nemo in voluptatem! Labore consequuntur eos,
+            saepe perspiciatis voluptatem aliquid neque voluptatibus consectetur
+            ea?
+          </p>
+        </div>
+        <div class="col-md-2 col-8 review rvwCard">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+            temporibus modi corporis repellat quos voluptas deserunt itaque
+            expedita ducimus adipisci? Voluptate placeat tenetur voluptatum quas
+            laboriosam molestiae fuga nam non porro unde incidunt impedit quos
+            obcaecati itaque mollitia officia distinctio, ab ad magnam odio
+            commodi repellat. Molestias, maiores. Culpa, facilis.
+          </p>
+          <p class="mdi mdi-death-star"></p>
+          <p class="mdi mdi-death-star"></p>
+          <p class="mdi mdi-death-star"></p>
+        </div>
+        <div class="col-md-2 col-8 rvwCard">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
+            necessitatibus reiciendis aut impedit. Ratione sapiente aut saepe,
+            repudiandae eum perferendis? Modi deserunt ducimus aliquam cum?
+          </p>
+        </div>
+      </main>
+    </section>
+
+    <section class="container-fluid bg-success">
+      <main class="row">
+        <div class="col-7 p-3">
+          <h1 class="mx-2">placeholder</h1>
+          <p class="mx-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
+            sequi.
+          </p>
+        </div>
+      </main>
+    </section>
+
+    <footer class="bg-info container-fluid pt-1">
+      <main class="row justify-content-center">
+        <h5 class="mdi mdi-copyright col-4">copyright</h5>
+      </main>
+    </footer>
+  </body>
+</html>

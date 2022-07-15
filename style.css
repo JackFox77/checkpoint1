@@ -1,0 +1,60 @@
+:root {
+  --banner: rgb(44, 204, 161);
+  --background: rgb(130, 138, 139);
+}
+
+@media (max-width: 768px) {
+  .facePage {
+    min-height: 80vh;
+  }
+  .aboutPage {
+    max-width: 400;
+  }
+}
+
+header {
+  opacity: 70%;
+}
+
+.facePage {
+  background-image: url(https://images.unsplash.com/photo-1449867727329-3294ea016353?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.glassCard {
+  background-color: rgb(182, 182, 182);
+  border: 1px solid rgb(122, 122, 122);
+  opacity: 75%;
+}
+
+.titleFont {
+  font-family: "Sofia", cursive;
+}
+
+.bannerBar {
+  background-color: var(--banner);
+}
+
+.roundBox {
+  border-radius: 10px;
+}
+
+.splashCard {
+  transform: translateY(60px);
+  opacity: 80%;
+}
+
+.aboutPage {
+  height: 35vh;
+}
+
+.bgMain {
+  background-color: var(--background);
+}
+
+.rvwCard {
+  border: solid rgb(89, 89, 89) 2px;
+  background-color: rgb(106, 143, 158);
+}

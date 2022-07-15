@@ -50,7 +50,14 @@
       <section class="row bannerBar pt-1 fixed-top">
         <h2 class="text-light mdi mdi-castle col-1 offset-1"></h2>
         <!-- SECTION NAVBAR -->
-        <h2 class="col-3 titleFont offset-1 text-light">Sketchy Architect</h2>
+        <h2 class="col-3 titleFont offset-1 text-light">
+          <a href="#FacePage"> Sketchy Architect</a>
+        </h2>
+        <a
+          href="#About"
+          class="col-2 offset-2 d-flex align-items-center justify-content-center"
+          >About</a
+        >
       </section>
     </header>
 
@@ -76,7 +83,8 @@
               If you agree with these, Then have no fear because we are
               available. For a fraction of the cost a traditional construction
               company, you can terrify everyone in the city with the shoddy work
-              quality of any of your building
+              quality of any of your building. Remember, you get the quality you
+              pay for!
             </p>
           </div>
         </div>
@@ -103,30 +111,37 @@
       </div>
     </section>
 
-    <section class="container-fluid bgMain py-3">
+    <section id="About" class="container-fluid bgMain py-3">
       <!-- SECTION ABOUT US -->
       <main class="row">
         <div class="col-md-3 offset-1 aboutPage rounded text-center">
-          <img width=" 180px" class="" src="imgs/aboutpic.jpg" alt="" />
+          <img
+            width=" 180px"
+            class="roundBox"
+            src="imgs/aboutpic.jpg"
+            alt="FounderPic"
+          />
         </div>
         <div class="col-md-7 col-10 offset-1">
           <h1 class="pt-5">About us</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel eos
-            cupiditate magnam rem, temporibus necessitatibus unde eveniet
-            maiores architecto dolores. Eos mollitia nesciunt sequi magnam odio
-            aspernatur! Corporis, molestias cum!
+            <span class="titleFont">Sketchy Architect</span> was founded by
+            James B. Donavon after his experience with local municipal codes. He
+            couldn't believe how many codes were required for 'suitable living
+            conditions'. After recruiting others who didn't fit in with
+            societies codes, James created a company that allows the customer to
+            get what they actually want.
           </p>
           <button class="col-2 btn-danger rounded">more</button>
         </div>
       </main>
     </section>
 
-    <section class="container-fluid bgMain py-5">
+    <section class="container-fluid py-5 rvwBack">
       <!-- SECTION REVIEWS -->
       <main class="row justify-content-around">
         <div class="col-md-2 col-8 d-flex align-items-center">
-          <div class="rvwCard roundBox">
+          <div class="rvwCard roundBox px-2">
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
               aliquid blanditiis nemo in voluptatem! Labore consequuntur eos,
@@ -136,11 +151,11 @@
           </div>
         </div>
         <div class="col-md-2 col-8">
-          <div class="review rvwCard roundBox">
+          <div class="review rvwCard roundBox px-2">
             <div class="d-flex justify-content-around">
-              <p class="mdi mdi-death-star"></p>
-              <p class="mdi mdi-death-star"></p>
-              <p class="mdi mdi-death-star"></p>
+              <p class="mdi mdi-shield-star-outline text-light"></p>
+              <p class="mdi mdi-shield-star-outline text-light"></p>
+              <p class="mdi mdi-shield-star-outline text-light"></p>
             </div>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. A
@@ -152,7 +167,7 @@
           </div>
         </div>
         <div class="col-md-2 col-8 d-flex align-items-center">
-          <div class="rvwCard roundBox">
+          <div class="rvwCard roundBox px-2">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
               necessitatibus reiciendis aut impedit. Ratione sapiente aut saepe,
@@ -163,23 +178,48 @@
       </main>
     </section>
 
-    <section class="container-fluid bg-info">
-      <main class="row">
-        <div class="col-4 p-3 d-flex align-items-center">
-          <h1 class="mx-2">Our Services</h1>
+    <section class="container-fluid bgMain srvc">
+      <!-- SECTION SERVICES -->
+      <main class="row h-100">
+        <div class="col-md-3 p-3 d-flex align-content-evenly">
+          <h1 class="mx-2"></h1>
         </div>
-        <div class="col-6 d-flex align-items-center">
-          <p class="mx-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam,
-            sequi.
+
+        <div class="col-md-5 d-flex align-items-center">
+          <p class="mx-2 fw-bold">
+            We pride ourselves on delivery the most mediocre product possible,
+            but we stand by our products. If you have any doubts after the
+            reviews you've seen, then please reach out to us. We love talking to
+            people and helping them understand the virtues of our company.
           </p>
+        </div>
+
+        <div class="col-md-5 dflex align-items-center">
+          <p class="mx-2 py-3">
+            <b>DISCLAIMER</b>--If you have any legal issues or concerns, then
+            please contact the legal department . Please be aware that if you
+            are not pleased with the construction quality of your project, you
+            took full responsibility when you signed the pre-agreement forms.
+          </p>
+        </div>
+
+        <div
+          class="col-md-3 roundBox d-flex justify-content-center py-2 align-items-center"
+        >
+          <img
+            src="imgs/cottage.jpg"
+            height="220px"
+            class="roundBox dsktopCard"
+            alt="Legal-Building"
+          />
         </div>
       </main>
     </section>
 
-    <footer class="bg-info container-fluid pt-1">
+    <footer class="bg-secondary container-fluid pt-1">
+      <!-- SECTION FOOTER -->
       <main class="row justify-content-center">
-        <h5 class="mdi mdi-copyright col-4">copyright</h5>
+        <h5 class="mdi mdi-copyright col-4">sketchybuilders</h5>
       </main>
     </footer>
   </body>

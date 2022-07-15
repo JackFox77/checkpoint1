@@ -79,3 +79,9 @@ header {
   background-size: cover;
   background-image: url(https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1147&q=80);
 }
+
+.boxBreak {
+  border-top: 3px solid black;
+  border-bottom: 2px solid black;
+  box-shadow: 0px 0px 10px gray;
+}

@@ -85,3 +85,26 @@ header {
   border-bottom: 2px solid black;
   box-shadow: 0px 0px 10px gray;
 }
+
+.portPic {
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  background-image: url(https://images.unsplash.com/photo-1604854574894-1be73ca43cb8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80);
+}
+
+.aboutBreak {
+  padding: 6em;
+  height: 30vh;
+}
+
+.picSize {
+  max-width: 100%;
+}
+
+.aboutPic {
+  background-position: center;
+  background-size: cover;
+  height: 30vh;
+  background-image: url(https://images.unsplash.com/photo-1574169208507-84376144848b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=879&q=80);
+}

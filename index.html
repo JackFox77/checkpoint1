@@ -45,7 +45,7 @@
 
     <title>Document</title>
   </head>
-  <body class="">
+  <body class="debug">
     <header class="container-fluid">
       <section class="row bannerBar pt-1 fixed-top">
         <h2 class="text-light mdi mdi-castle col-1 offset-1"></h2>
@@ -57,6 +57,11 @@
           href="#About"
           class="col-2 offset-2 d-flex align-items-center justify-content-center"
           >About</a
+        >
+        <a
+          class="col-2 d-flex align-items-center justify-content-center"
+          href="#legal"
+          >Legal</a
         >
       </section>
     </header>
@@ -105,8 +110,12 @@
           <div class="mdi mdi-twitter">Social Media - Defiant Broadcast</div>
         </div>
         <div class="col-md-5">
-          <h2 class="col-8 offset-1">Contact Us!</h2>
-          <p class="col-8 offset-1">We would love to here From You!</p>
+          <h2 class="col-8 offset-1 text-light pt-2 text-center">
+            Contact Us!
+          </h2>
+          <p class="col-8 offset-1 text-light text-center">
+            We would love to here From You!
+          </p>
         </div>
       </div>
     </section>
@@ -123,8 +132,8 @@
           />
         </div>
         <div class="col-md-7 col-10 offset-1">
-          <h1 class="pt-5">About us</h1>
-          <p>
+          <h1 class="pt-5 text-light">About us</h1>
+          <p class="text-light">
             <span class="titleFont">Sketchy Architect</span> was founded by
             James B. Donavon after his experience with local municipal codes. He
             couldn't believe how many codes were required for 'suitable living
@@ -132,7 +141,7 @@
             societies codes, James created a company that allows the customer to
             get what they actually want.
           </p>
-          <button class="col-2 btn-danger rounded">more</button>
+          <a href="aboutus.html" class="col-2 btn-danger rounded p-2">more</a>
         </div>
       </main>
     </section>
@@ -180,7 +189,7 @@
 
     <section class="container-fluid bgMain srvc">
       <!-- SECTION SERVICES -->
-      <main class="row h-100">
+      <main class="row h-100" id="legal">
         <div class="col-md-3 p-3 d-flex align-content-evenly">
           <h1 class="mx-2"></h1>
         </div>
@@ -195,7 +204,7 @@
         </div>
 
         <div class="col-md-5 dflex align-items-center">
-          <p class="mx-2 py-3">
+          <p class="mx-2 py-3 px-2">
             <b>DISCLAIMER</b>--If you have any legal issues or concerns, then
             please contact the legal department . Please be aware that if you
             are not pleased with the construction quality of your project, you
@@ -204,7 +213,7 @@
         </div>
 
         <div
-          class="col-md-3 roundBox d-flex justify-content-center py-2 align-items-center"
+          class="col-md-3 roundBox d-flex justify-content-end py-2 align-items-center"
         >
           <img
             src="imgs/cottage.jpg"
